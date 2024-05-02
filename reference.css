@@ -1,0 +1,57 @@
+/* body {
+  background-color: coral;
+} */
+
+/* p,
+h1 {
+  background-color: #f00;
+}
+h1 {
+  background-color: rgb(300, 80, 80);
+} */
+/* body {
+  background-image: url(bgi.avif);
+  background-color: #cccccc;
+  background-position: center;
+  background-size: 30%;
+  background-repeat: repeat;
+}
+h1,
+p {
+  background-origin: content-box;
+}
+h1,
+p,
+div {
+  background-color: white;
+  inline-size: 70%;
+  border-block-width: 10px;
+}
+h1 {
+  border-block: 5px solid red;
+  border-block-color: red;
+}
+h2 {
+  border: 5px dotted blue;
+  border-block-color: green;
+}
+div {
+  border: double;
+  border-block-color: yellow;
+} */
+div.ex1 {
+  border-style: solid;
+  border-color: #ff0000;
+}
+div.ex2 {
+  border-style: solid;
+  border-color: #ff0000 #00ff00;
+}
+div.ex3 {
+  border-style: solid;
+  border-color: #ff0000 #00ff00 #00f;
+}
+div.ex4 {
+  border-style: solid;
+  border-color: #ff0000 #0f0 #00f rgb(250, 0, 250);
+}

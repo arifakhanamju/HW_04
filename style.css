@@ -1,0 +1,42 @@
+.intro,
+#Lastname {
+  background-color: yellow;
+  font-weight: bold;
+}
+h1 {
+  font-size: 200%;
+}
+h1,
+p {
+  color: red;
+}
+div p {
+  color: black;
+}
+div > p {
+  color: black;
+}
+ul + p {
+  color: blue;
+}
+ul ~ table {
+  color: crimson;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+p.myquote {
+  font-style: italic;
+}
+[id] {
+  font-style: italic;
+}
+[id="my-Address"] {
+  font-size: 120%;
+}
+[id$="ess"] {
+  font: size 200%;
+}
+[id^="l"] {
+  color: darkorange;
+}
